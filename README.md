@@ -20,17 +20,17 @@ The CSV files are retrieved from https://www.ncdc.noaa.gov/cdo-web/search.
 ## How to download files:
 In the dropdown menus, select the following:
 
-__Select Weather Observation Type/Dataset__: Daily Summaries
-__Select Date Range__: _This should be a year's worth of data (Example: 2020-01-01 to 2020-12-31). This should match for both cities._
-__Search for__: Cities
-__Enter a Search Term__: _City you want data for_
+* __Select Weather Observation Type/Dataset__: Daily Summaries
+* __Select Date Range__: _This should be a year's worth of data (Example: 2020-01-01 to 2020-12-31). This should match for both cities._
+* __Search for__: Cities
+* __Enter a Search Term__: _City you want data for._
 
 * In the results, click on "View Full Details" for the desired city.
 * Select "Station List" in the left panel.
 * Sort the table so that "Coverage" shows 100% first.
     * Note that "Coverage" percentage signifies completeness of data so selecting a station with 100% (or as close to) is ideal.
 * From here, find a station that has a "Start" and "End" that includes your date range.
-    * (Using the date range above, a station with "Start" = 1992-02-12 and "End" = 2024-10-29 would include your desired date range.)
+    * Using the date range above, a station with "Start" = 1992-02-12 and "End" = 2024-10-29 would include your desired date range.
 * Click on "Add to Cart".
 * In the top right highlighted in orange, hover over your cart and select "View All Items".
 * The "Select the Output Format" should be: Custom GHCN-Daily CSV.
