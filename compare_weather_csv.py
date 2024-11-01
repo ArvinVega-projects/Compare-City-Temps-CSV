@@ -138,5 +138,7 @@ try:
     TestFileNames(first_file, second_file)
 except FileNotFoundError:
     print("File(s) not found. Please confirm the path name(s) are correct.")
+except IsADirectoryError:
+    print("File(s) not found. Please confirm the path name(s) are correct.")
 else:
     WeatherData(first_file, second_file).plot_data()
